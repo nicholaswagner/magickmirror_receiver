@@ -29,10 +29,14 @@ Cast.
 <body>
 
   <cast-media-player></cast-media-player>
-
+  <script>
+    cast.framework.CastReceiverContext.getInstance().start();
+  </script>
+  <!--
   <footer>
     <script src="js/receiver.js" type="module"></script>
   </footer>
+-->
 </body>
 
 </html>
