@@ -105,8 +105,8 @@ CastPlayer.prototype.initializeCastPlayer = function () {
     // Google Cast Developer Console), or optionally
     // use the chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID
     //options.receiverApplicationId = '4F8B3483'; // <-- default
-    options.receiverApplicationId = '3B2AFFAA';
-    //options.receiverApplicationId = 'D74E5BDA';
+    //options.receiverApplicationId = '3B2AFFAA';
+    options.receiverApplicationId = 'DE46030A';
 
 
     // Auto join policy can be one of the following three:
